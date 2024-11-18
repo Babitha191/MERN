@@ -1,7 +1,5 @@
-                      Intermediate Mern stack machine test  with Web API
-
-1. Login Page:
-Backend(Node.js/Express.js):
+//1. Login Page:
+//Backend(Node.js/Express.js):
 // server.js
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -58,7 +56,7 @@ app.post('/employees', (req, res) => {
 app.listen(port, () => {
   console.log(Server running on port ${port});
 });
-Frontend(React):
+//Frontend(React):
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -77,8 +75,8 @@ function App() {
     </Router>
   );
 }
-2.EmployeeForm.js:
-Frontend(React):
+//2.EmployeeForm.js:
+//Frontend(React):
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -129,7 +127,7 @@ const EmployeeForm = () => {
 
 export default EmployeeForm;
 
-Backend(Node.js/Express.js):
+//Backend(Node.js/Express.js):
 const express = require('express');
 const multer = require('multer');
 const mongoose = require('mongoose');
@@ -191,8 +189,8 @@ app.listen(port, () => {
     console.log(Server running on port ${port});
 });
 
-3.Employee Data(Create):
-Backend(Node.js and Express):
+//3.Employee Data(Create):
+//Backend(Node.js and Express):
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -320,8 +318,8 @@ function App() {
 
   const handleSubmit = async (e) => {
 
-4.Update Employee:
-Backend(Node.js and Express):
+//4.Update Employee:
+//Backend(Node.js and Express):
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
